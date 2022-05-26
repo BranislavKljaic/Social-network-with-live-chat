@@ -1,0 +1,18 @@
+Promijeniti boje date pickera na Register page
+
+Implementirati trenutni datum da postavlja u bazu pri registraciji (trenutno je null vrijednost)
+
+Slika na register page se pomjera kada mi izbacuje alert dialog, popraviti to (vjerovatno je css u pitanju)
+
+Forget password stranicu napraviti
+
+Napraviti globalni string za boju (00b960 je trenutna), pa da se citava stranica moze promijeniti
+
+Poubacivati validne vrijednosti u bazu
+
+Hesovati lozinku pri logovanju i registraciji
+
+ViewPost komponenta nije implementirana, da otvara post na koji se klikne
+
+Posto se useEffect odradi odmah na renderovanju, i posts i users mi dodaju undefined objekat u redux kada se pokrene aplikacija (na Login page-u),
+zbog toga sam dodao u Post, ako je post.owner undefined tek onda prikazati post. Pokusati popraviti da se ne dodaje taj undefined objekat u redux

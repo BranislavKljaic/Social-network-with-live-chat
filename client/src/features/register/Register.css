@@ -1,0 +1,68 @@
+.user-inputs-register {
+  background-image: url(../../shared/background.png);  
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  min-height: 1000px;
+}
+
+.register-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  width: 50%;
+}
+
+.register-input-data {
+  width: 470px;
+}
+
+.register-header {
+  display: flex;
+  font-size: 48px;
+  color: white;
+}
+
+.register-username-input {
+  display: flex;
+  justify-content: space-between;
+  width: 470px;
+  margin-top: 15px;
+}
+
+.register-password-input {
+  display: flex;
+  width: 470px;
+  margin-top: 15px;
+}
+
+.horizontal-line {
+  margin-top: 30px;
+  background-color: #00b960;
+  width: 470px;
+}
+
+.register-input-login {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.register-input-login-question {
+  display: flex;
+  color: white;
+}
+
+.register-input-login-link {
+  display: flex;
+  text-decoration: none;
+  color: #00b960;
+  margin: 17px 2px;
+}
+
+.register-input-login > a:hover {
+  color: white;
+}

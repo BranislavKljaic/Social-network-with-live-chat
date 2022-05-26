@@ -1,0 +1,9 @@
+.profile-content-user-information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-statistics {
+  display: flex;
+  justify-content: space-evenly;
+}

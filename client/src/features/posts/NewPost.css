@@ -1,0 +1,32 @@
+.new-post-add-new-post {
+  display: flex;
+  gap: 50px;
+  width: fit-content;
+}
+
+.new-post-add-new-post-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.new-post-image-text {
+  display: flex;
+  justify-content: center;
+}
+
+.new-post-headline {
+  font-size: 30px;
+}
+
+.new-post-input {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.new-post-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

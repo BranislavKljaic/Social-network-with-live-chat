@@ -1,0 +1,23 @@
+.profile-header {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-avatar {
+  position: relative;
+  display: flex;
+  left: 158px;
+  top: -100px;
+}
+
+.profile-avatar-image {
+  border: 6px solid white;
+  border-radius: 100%;
+}
+
+.profile-username {
+  padding-top: 80px;
+  padding-left: 20px;
+}

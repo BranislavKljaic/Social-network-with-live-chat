@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  background-color: transparent;
+  height: 70px;
+}
+
+.logo {
+  width: 135px;
+  height: 64px;
+  padding-left: 50px;
+}
+
+.logged-user-header {
+  display: flex;
+  height: 70px;
+  border-bottom: 1px groove lightgrey;
+}
+
+.logged-user-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+  float: left;
+}
+
+.logged-user-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: auto;
+  width: 600px;
+  gap: 20px;
+}
+
+.logged-user-logout-btn {
+  float: right; 
+}
